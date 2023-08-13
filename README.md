@@ -6,8 +6,7 @@
 
 <div>
   <h2>Wireframes</h2>
-<!--   <p>Check wireframes file for more info</p> -->
-  [Wireframes](https://github.com/Yrishe/ThemePark/tree/main/Design/Wireframes)
+  <p><a href='https://github.com/Yrishe/ThemePark/tree/main/Design/Wireframes'>Check wireframes folder</a></p>
 </div>
 
 
