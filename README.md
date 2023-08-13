@@ -1,8 +1,8 @@
 # ThemePark
 
-<p>This is a project from University exploring the power of pure HTML and CSS only. Developing a fake page for a random Theme Park.</p>
+<p>This project only explores pure HTML and CSS's power and the planning stage, manipulating and developing wireframes to the final goal, considering the variety of devices. This represents a development of a fake page for a random Theme Park, in this case, Game of Thrones Theme Park.</p>
 
-<p>HTML and CSS are capable of much more, and on this project we were able to have a little taste of it all.</p>
+<p>HTML and CSS are capable of much more, and on this project, we were able to have a little taste of it all.</p>
 
 <h2>Screenshot</h2>
 <h4>Home page</h4>
