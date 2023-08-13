@@ -4,6 +4,13 @@
 
 <p>HTML and CSS are capable of much more, and on this project, we were able to have a little taste of it all.</p>
 
+<div>
+  <h2>Wireframes</h2>
+<!--   <p>Check wireframes file for more info</p> -->
+  [Wireframes](https://github.com/Yrishe/ThemePark/tree/main/Design/Wireframes)
+</div>
+
+
 <h2>Screenshot</h2>
 <h4>Home page</h4>
 <img width="685" alt="image" src="https://github.com/Yrishe/ThemePark/assets/86082317/78c2bbea-b9c6-412e-b04c-529282ec85fa">
