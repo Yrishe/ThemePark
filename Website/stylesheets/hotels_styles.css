@@ -1,0 +1,63 @@
+/* Author: Godfrey Ndingindwayo */
+
+/* Common styles for both mobile and desktop */
+body {
+ 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.hotel-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.hotel-card {
+    background-color: #333;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: calc(25% - 40px); /* Four cards in a row */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.hotel-card h2 {
+    margin-top: 0;
+}
+
+.hotel-card p {
+    margin-bottom: 10px;
+}
+
+.hotel-card .rating {
+    display: inline-block;
+    background-color: #444;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.hotel-card .price {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hotel-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    .hotel-card {
+        width: 100%;
+    }
+}

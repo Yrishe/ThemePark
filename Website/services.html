@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Game of Thrones Theme Park: Services</title>
+  <meta charset="utf-8">
+  <meta name="description" content="This is a website for a Game of Thrones Theme Park Services.">
+  <meta name="author" content="Yarli Borges Rabelo">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="refresh" content="600">
+  <meta name="keywords" content="Game of Thrones theme park family fun">
+  <link rel="stylesheet" type="text/css" href="stylesheets/common_styles.css">
+  <link rel="stylesheet" href="stylesheets/services_styles.css">
+  <link rel="icon" href="assets/GoT.png">
+</head>
+
+<body>
+  <!-- This is the Navbar with buttons linking to different pages -->
+  <header class="header">
+    <a href="index.html" class="logo">
+      <picture>
+        <source media="(min-width: 768px)" srcset="assets/logo_bright.png" width="100">
+        <img src="assets/logo_small.png" alt="Theme Park Logo" width="50">
+      </picture>
+    </a>
+    <nav class="nav" aria-label="Primary navigation">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="locations.html" class="nav__link">Explore Map</a>
+        </li>
+        <li class="nav__item">
+          <a href="services.html" class="nav__link">View Services</a>
+        </li>
+        <li class="nav__item">
+          <a href="hotels.html" class="nav__link">Nearby Hotels</a>
+        </li>
+        <li class="nav__item">
+          <a href="contact.html" class="nav__link">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Services fields display services avalilable at the park, with title, a short description and a link the theme park's map  -->
+  <main>
+    <div class="services-tile">
+      <!-- service wrapper hold grids-->
+      <div class="wrapper">
+        <div class="services-opt" id="opt-1">
+          <!-- icon declaration -->
+          <object class="serv-log" data="assets/restaurant.png"></object>
+          <div class="box">
+            <!-- service title -->
+            <p class="serv-title"><strong>Food and Drink</strong></p>
+            <!-- service description  -->
+            <p class="serv-desc">
+              The Game of Thrones Theme Park offer a special selection of restaurants. Whether in the à la carte or the
+              buffet.
+              <!-- linking directing to map locations -->
+              <a href="locations.html">See map.</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="services-opt" id="opt-2">
+          <!-- icon declaration -->
+          <object class="serv-log" data="assets/hospital.png"></object>
+          <div class="box">
+            <!-- service title -->
+            <p class="serv-title"><strong>Medical Help</strong></p>
+            <!-- service description  -->
+            <p class="serv-desc">
+              The Game of Thrones Theme Park offer medical
+              support to assist customers if needed. <a href="locations.html">See map.</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="services-opt" id="opt-3">
+          <!-- icon declaration -->
+          <object data="assets/toilet.png" class="toilet"></object>
+          <div class="box">
+            <!-- service title -->
+            <p class="serv-title"><strong>Toilets</strong></p>
+            <!-- service description  -->
+            <p class="serv-desc">
+              The Game of Thrones Theme Park's toilets
+              are located strategically to best serve our customers. <a href="locations.html">See map.</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="services-opt" id="opt-4">
+          <!-- icon declaration -->
+          <object class="serv-log" data="assets/hotel.png"></object>
+          <div class="box">
+            <!-- service title -->
+            <p class="serv-title"><strong>Hotel</strong></p>
+            <!-- service description  -->
+            <p class="serv-desc">
+              As an overnight guest you can enjoy many
+              benefits that will make your stay with us in
+              the hotels. <a href="locations.html">See map.</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="services-opt" id="opt-5">
+          <!-- icon declaration -->
+          <object class="serv-log" data="assets/parking.png"></object>
+          <div class="box">
+            <!-- service title -->
+            <p class="serv-title"><strong>Parking</strong></p>
+            <div class="tooltip">
+              <!-- service description  -->
+              <p class="serv-desc">
+                Parking areas are available for short-stay &
+                long-stay customers. Inside parking is also
+                available for exclusive memeber. "Prices on mouse over" <a href="locations.html">See map.</a>
+              </p>
+              <span class="tooltiptext styled-span">Prices:
+                <p>Mon-Fri: £12.50</p>
+                <p>Sat-Sun: £16.50</p>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="services-opt" id="opt-6">
+          <!-- icon declaration -->
+          <object class="serv-log" data="assets/ticket.png"></object>
+          <div class="box">
+            <!-- service title -->
+            <p class="serv-title"><strong>Tickets</strong></p>
+            <!-- service description  -->
+            <div class="tooltip">
+              <p class="serv-desc">
+                The Game of Thrones Theme Park's offer
+                exclusive discounts for groups of 7+ people. "Prices on mouse over" <a href="locations.html">See
+                  map.</a>
+              </p>
+              <span class="tooltiptext styled-span">Prices:
+                <p>Mon-Fri: £22.50</p>
+                <p>Sat-Sun: £29.50</p>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="services-opt" id="opt-7">
+          <!-- icon declaration -->
+          <object class="serv-log" data="assets/calendar.png"></object>
+          <div class="box">
+            <!-- service title -->
+            <p class="serv-title"><strong>Events</strong></p>
+            <!-- service description  -->
+            <p class="serv-desc">
+              The Game of Thrones Theme Park offer events
+              full of entertainment to our short-stay &
+              long-stay customers.<a href="locations.html">See map.</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="services-opt" id="opt-8">
+          <!-- icon declaration -->
+          <object class="serv-log" data="assets/store.png"></object>
+          <div class="box">
+            <!-- service title -->
+            <p class="serv-title"><strong>Gift Shop</strong></p>
+            <!-- service description  -->
+            <p class="serv-desc">
+              Beautifully presented for the perfect gift,
+              you can now find remarkable GoT accessories
+              in our gift shops. <a href="locations.html">See map.</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="services-opt" id="opt-9">
+          <!-- icon declaration -->
+          <object class="serv-log" data="assets/favourite.png"></object>
+          <div class="box">
+            <!-- service title -->
+            <p class="serv-title"><strong>Meet and Greet</strong></p>
+            <!-- service description  -->
+            <p class="serv-desc">
+              Meet and Greet offers special selected moments
+              of GoT for the joy of our customers. Where you
+              can even meet your favorite character. <a href="locations.html">See map.</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="services-opt" id="opt-10">
+          <!-- icon declaration -->
+          <object class="serv-log" data="assets/money.png"></object>
+          <div class="box">
+            <!-- service title -->
+            <p class="serv-title"><strong>Discounts</strong></p>
+            <!-- service description  -->
+            <p class="serv-desc">
+              Game of Thrones Theme Park offers exclusive
+              discounts to disabled, elderly and students.
+              To find out more, speak to our Help Center. <a href="locations.html">See map.</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="services-opt" id="opt-11">
+          <!-- icon declaration -->
+          <object class="serv-log" data="assets/phone-call.png"></object>
+          <div class="box">
+            <!-- service title -->
+            <p class="serv-title"><strong>Help Center</strong></p>
+            <!-- service description  -->
+            <p class="serv-desc">
+              In the park customers can find Help Centers
+              to support any query. <a href="locations.html">See map.</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="services-opt" id="opt-12">
+          <!-- icon declaration -->
+          <object class="serv-log" data="assets/bus-station.png"></object>
+          <div class="box">
+            <!-- service title -->
+            <p class="serv-title"><strong>Transport</strong></p>
+            <!-- service description  -->
+            <p class="serv-desc">
+              Spend more time enjoying and less waiting.
+              Game of Thrones Theme Park offers an
+              exlcusive transport line for customers. <a href="locations.html">See map.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- These lines contain footer's contents-->
+  <footer id="foot" class="ft">
+    <p>Copyright 2023 by Team 51. All rights reserved. <a href="contact.html">Contact Us</a></p>
+  </footer>
+</body>
+
+</html>

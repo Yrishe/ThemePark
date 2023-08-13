@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Game of Thrones Theme Park</title>
+    <meta charset="utf-8">
+    <meta name="description" content="This is a website for a Game of Thrones Theme Park.">
+    <meta name="author" content="João Canepelle">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="600">
+    <meta name="keywords" content="Game of Thrones theme park family fun">
+    <link rel="stylesheet" type="text/css" href="stylesheets/common_styles.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/main_page_styles.css">
+    <link rel="icon" href="assets/GoT.png">
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">
+        <picture>
+          <source media="(min-width: 768px)" srcset="assets/logo_bright.png" width="100">
+          <img src="assets/logo_small.png" alt="Theme Park Logo" width="50">
+        </picture>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="locations.html" class="nav__link">Explore Map</a>
+          </li>
+          <li class="nav__item">
+            <a href="services.html" class="nav__link">View Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="hotels.html" class="nav__link">Nearby Hotels</a>
+          </li>
+          <li class="nav__item">
+            <a href="contact.html" class="nav__link">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- the main content of the page, inside there are some div elements that organize the content in different blocks -->
+    <main>
+      <!-- Video with a poster that will show up while the video is being loaded -->
+      <div id="introduction_video">
+        <video poster="assets/GotLogo.jpg" muted autoplay loop>
+          <source src="assets/IntroductionVideo.mp4" type="video/mp4">
+        </video>
+      </div>
+      <!-- A little text that describes what the park is -->
+      <div id="description">
+        <section class="description_section">
+          <h2>What's the Game of Thrones Thematic Park?</h2>
+          <p>
+            Game of Thrones Thematic Park is a awesome adventure within the world of the American fantasy drama television series created by David
+            Benioff and D. B. Weiss for HBO which is an adaptation of A Song of Ice and Fire, a series of fantasy novels by George R. R. Martin, the
+            first of which is A Game of Thrones. It tells the story of nine noble families wage war against each other in order to gain control over
+            the mythical land of Westeros. Meanwhile, a force is rising after millenniums and threatens the existence of living men.<br>
+            You will be able to explore different areas from the North and cold of Winterfell to the South of Dorne. In these different there are a
+            bunch of avtivies waiting for you such as horse rides, thematic dragon roler coasters, castles tours and a lot more that you can take a
+            look in the section below.
+          </p>
+        </section>
+      </div>
+      <!-- the main div for the menu tiles -->
+      <div id="menu_tiles">
+        <!-- each menu tile is inside a generic div with the class menu_tile so we will be able to control the size more easily with css -->
+        <div class="small_tiles">
+          <div class="menu_tile">
+            <div id="booking_tile">
+              <a id="BuyTickets"></a>
+              <form id="booking_form">
+                <label for="booking_date">Date to Book</label><br>
+                <input id="booking_date" type="date" name="booking_date"><br>
+                <label for="email_input">Email</label><br>
+                <input id="email_input" type="email" name="email_input"><br>
+                <button id="book_button" type="button" onclick="alert('Date Successfully Booked')">Book</button>
+              </form>
+              <span>Booking</span>
+            </div>
+          </div>
+          <div class="menu_tile">
+            <div id="times_tile">
+              <table>
+                <tr>
+                  <th>Sunday</th>
+                  <td>9am - 7pm</td>
+                </tr>
+                <tr>
+                  <th>Monday</th>
+                  <td><em>Closed</em></td>
+                </tr>
+                <tr>
+                  <th>Tuesday</th>
+                  <td>9am - 7pm</td>
+                </tr>
+                <tr>
+                  <th>Wednesday</th>
+                  <td>9am - 7pm</td>
+                </tr>
+                <tr>
+                  <th>Thursday</th>
+                  <td>9am - 7pm</td>
+                </tr>
+                <tr>
+                  <th>Friday</th>
+                  <td>9am - 7pm</td>
+                </tr>
+                <tr>
+                  <th>Saturday</th>
+                  <td>9am - 7pm</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="menu_tile">
+            <a href="services.html">
+              <div id="services_tile">
+                <span>Services</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="menu_tile big_menu">
+          <a href="locations.html">
+            <div id="map_tile">
+              <span>Map</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer id="footer">
+      <p>Copyright 2023 by Team 51. All rights reserved. <a href="contact.html">Contact Us</a></p>
+    </footer>
+  </body>
+</html>

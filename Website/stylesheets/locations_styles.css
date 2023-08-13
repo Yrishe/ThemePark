@@ -1,0 +1,41 @@
+/* Author: Tatiana Kirillova */
+
+/* Location description grid*/
+
+.location_details {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  list-style-type: none;
+  padding-left: 0px;
+  text-align: justify;
+  text-justify: inter-word;  
+  column-gap: 15px;
+}
+@media (min-width: 768px) {
+  .location_details {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Location description text format*/
+
+.location-description {
+  font-family: "Creed", Georgia, Palatino, serif;
+  color: #ff9f45;
+}
+
+@media (min-width: 768px) {
+  .location_details {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.location-image img {
+  width: 100%;
+}
+
+.location-text {
+  margin: 10px 10px 10px 10px;
+}
